@@ -19,7 +19,7 @@ Me: i got error Exception has occurred: KeyError '' on text += morse_code_rev[co
 >>It looks like you are encountering a KeyError when trying to decode a Morse code string. 
 This error occurs when the dictionary morse_code_rev does not contain a key for the code element being looked up.
 
-One possible reason for this error is that the Morse code string contains characters that are not part of the Morse code alphabet. 
+>>One possible reason for this error is that the Morse code string contains characters that are not part of the Morse code alphabet. 
 These characters are not included in the dictionary, so when they are encountered during decoding, a KeyError is raised.
 
-To fix this error, you could modify the decode function to check for invalid characters and skip them. Here is an example of how this could be done:
+>>To fix this error, you could modify the decode function to check for invalid characters and skip them. Here is an example of how this could be done:
